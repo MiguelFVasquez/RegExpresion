@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav>
 
       <Link to="/">Simulador</Link>
-      <Link to="/theory">Teoría</Link>
+      <Link to="/teoria">Teoría</Link>
       <Link to="/help">Ayuda</Link>
 
     </nav>

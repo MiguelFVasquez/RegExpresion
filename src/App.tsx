@@ -9,16 +9,14 @@ function App() {
 
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename="/RegExpresion">
 
       <Navbar />
 
       <Routes>
-
         <Route path="/" element={<SimulatorPage />} />
+        <Route path="/teoria" element={<TheoryPage />} />
         <Route path="/help" element={<HelpPage />} />
-        <Route path="/theory" element={<TheoryPage />} />
-
       </Routes>
 
     </BrowserRouter>
