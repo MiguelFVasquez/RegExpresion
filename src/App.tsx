@@ -10,12 +10,10 @@ function App() {
   return (
 
     <BrowserRouter basename="/RegExpresion">
-
       <Navbar />
-
       <Routes>
         <Route path="/" element={<SimulatorPage />} />
-        <Route path="/teoria" element={<TheoryPage />} />
+        <Route path="/theory" element={<TheoryPage />} />
         <Route path="/help" element={<HelpPage />} />
       </Routes>
 
